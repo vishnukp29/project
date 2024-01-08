@@ -29,51 +29,56 @@ const Form = () => {
   };
 
   return (
-    <div className=" bg-white rounded-md shadow w-full p-2 ">
-      <form onSubmit={handleSubmit} className="bg-white mt-2 p-2">
+    <div className=" bg-[#0E57A3]  shadow w-full md:w-3/4 p-2 ">
+      <form onSubmit={handleSubmit} className="bg-[#0E57A3] mt-2 p-2">
 
-        <div className="flex items-center border-2 py-2 px-3 mb-4">
+        <div className="flex items-center py-2 px-3 mb-4 bg-white rounded">
           <input
-            className="pl-2 outline-none border-none"
+            className="pl-2 outline-none border-none w-full "
             type="text"
             name="name"
             id="name"
             placeholder="Your Name"
             onChange={(e) => setName(e.target.value)}
             value={name}
+            required='true'
           />
         </div>
 
-        <div className="flex items-center border-2 py-2 px-3 mb-4">
+        <div className="flex items-center py-2 px-3 mb-4 bg-white rounded">
           <input
-            className="pl-2 outline-none border-none"
+            className="pl-2 outline-none border-none w-full "
             type="text"
             name="mail"
             id="mail"
             placeholder="Email Id"
             onChange={(e) => setMail(e.target.value)}
             value={mail}
+            required='true'
           />
         </div>
 
-        <div className="flex items-center border-2 py-2 px-3 mb-4">
+        <div className="flex items-center py-2 px-3 mb-4 bg-white rounded">
           <input
-            className="pl-2 outline-none border-none"
+            className="pl-2 outline-none border-none w-full "
             type="number"
             name="phoneNum"
             id="phoneNum"
             placeholder="Phone Number"
             onChange={(e) => setPhone(e.target.value)}
             value={phone}
+            required='true'
           />
         </div>
 
+        <div className="flex items-center justify-end ">
         <button
           type="submit"
-          className="block bg-slate-900 hover:bg-gray-700 mt-4 py-2 text-white font-semibold mb-2 px-4 rounded"
+          className="block bg-white hover:bg-gray-100 mt-4 py-2 text-gray-700 mb-2 px-4 "
         >
           Enquire
         </button>
+        </div>
       </form>
     </div>
   );
