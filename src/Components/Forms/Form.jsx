@@ -1,11 +1,16 @@
 import { useState } from "react";
 import axios from "axios";
+import {toast} from 'react-toastify'
 
 const Form = () => {
   // form states
   const [name, setName] = useState("");
   const [mail, setMail] = useState("");
   const [phone, setPhone] = useState("");
+
+  const showAlert = ()=>{
+    toast.success('Thank You For your Interest, We will get back to you soon')
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -26,6 +31,8 @@ const Form = () => {
         setMail("");
         setPhone("");
       });
+
+      showAlert();
   };
 
   return (
