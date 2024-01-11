@@ -1,11 +1,16 @@
 import Form from "../Forms/Form";
+import space from '../../assets/space.jpg'
+import lib from '../../assets/libr.jpg'
+import hr from '../../assets/hr.jpg'
+import img from '../../assets/imgg.png'
+
 const Card = () => {
   return (
     <section className="flex items-center bg-white font-display min-h-screen py-6">
       <div className="justify-center max-w-6xl px-4 py-4 mx-auto lg:py-0">
         <div className="px-4 m-5 md:text-center md:m-10 ">
           <h2 className=" text-2xl lg:text-4xl font-bold text-center text-gray-700 ">
-            Title Here
+          Feb2k23 Workshops
           </h2>
         </div>
 
@@ -17,7 +22,7 @@ const Card = () => {
           <div className="bg-[#FF6700]  shadow-md ">
             <a href="#" className="">
               <img
-                src="https://www.zdnet.com/a/img/resize/605df164b50d7127344cce4c41e5e2a36ac951b4/2023/04/05/e0478a88-b3ed-4516-8459-e0b919b4b2bc/artificial-intelligence.jpg?auto=webp&width=1280"
+                src={space}
                 alt=""
                 className="object-cover w-full h-64 "
               />
@@ -25,19 +30,21 @@ const Card = () => {
             <div className="p-5">
               <a href="#" className="">
                 <h2 className="mb-2 text-xl font-semibold tracking-tight text-gray-100">
-                  Lorem ipsum dor ismudsa suditdsas
+                  Python Space Invaders
                 </h2>
               </a>
               <p className="mb-3 font-normal text-gray-50">
-                There are some dummy text which helps to write message for the
-                receivers.
+                Master Python and Pygame through hands-on learning with Space
+                Invaders. Enhance programming skills, problem-solving, and game
+                development understanding, setting the stage for future projects
+                in software development.
               </p>
             </div>
           </div>
           <div className="bg-[#FF6700] shadow-md ">
             <a href="#" className="">
               <img
-                src="https://bluebik.com/storage/2021/06/AI-2-1.jpg"
+                src={lib}
                 alt=""
                 className="object-cover w-full h-64"
               />
@@ -45,19 +52,20 @@ const Card = () => {
             <div className="p-5">
               <a href="#" className="">
                 <h2 className="mb-2 text-xl font-semibold tracking-tight text-gray-100">
-                  Lorem ipsum dor ismudsa suditdsas
+                  Python Library Management Unleashed
                 </h2>
               </a>
               <p className="mb-3 font-normal text-gray-50">
-                There are some dummy text which helps to write message for the
-                receivers.
+                Sharpen Python skills by developing a library management
+                project, gaining hands-on expertise in efficient organization
+                and utilization of libraries for effective software development.
               </p>
             </div>
           </div>
           <div className="bg-[#FF6700] shadow-md ">
             <a href="#" className="">
               <img
-                src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/14202/production/_108243428_gettyimages-871148930.jpg"
+                src={hr}
                 alt=""
                 className="object-cover w-full h-64 "
               />
@@ -65,19 +73,21 @@ const Card = () => {
             <div className="p-5">
               <a href="#" className="">
                 <h2 className="mb-2 text-xl font-semibold tracking-tight text-gray-100">
-                  Lorem ipsum dor ismudsa suditdsas
+                  Python HR Analytics: Employee Attrition Insights
                 </h2>
               </a>
               <p className="mb-3 font-normal text-gray-50">
-                There are some dummy text which helps to write message for the
-                receivers.
+                Dive into data science and machine learning with a Python
+                project on employee attrition, gaining valuable skills in
+                predicting and mitigating workforce turnover for informed HR
+                decision-making.
               </p>
             </div>
           </div>
           <div className="bg-[#FF6700] shadow-md ">
             <a href="#" className="">
               <img
-                src="https://media.springernature.com/w580h326/nature-cms/uploads/collections/AI_and_machine_learning-00afb90f3d21234fd0f207243f60aa8e.jpg"
+                src={img}
                 alt=""
                 className="object-cover w-full h-64 "
               />
@@ -85,12 +95,14 @@ const Card = () => {
             <div className="p-5">
               <a href="#" className="">
                 <h2 className="mb-2 text-xl font-semibold tracking-tight text-gray-100 ">
-                  Lorem ipsum dor ismudsa suditdsas
+                  Python Image Classification with AI and Deep Learning.
                 </h2>
               </a>
               <p className="mb-3 font-normal text-gray-50 ">
-                There are some dummy text which helps to write message for the
-                receivers.
+                Explore the world of AI and deep learning through a Python
+                project on image classification, acquiring practical skills in
+                building and training models for accurate automated image
+                recognition.
               </p>
             </div>
           </div>

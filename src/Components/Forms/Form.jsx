@@ -22,7 +22,7 @@ const Form = () => {
     };
     axios
       .post(
-        "https://sheet.best/api/sheets/a7469226-bea7-481f-997f-d7b3b3808993",
+        "https://sheet.best/api/sheets/806e39a2-e148-413f-beee-a268928c977a",
         data
       )
       .then((response) => {
@@ -36,7 +36,7 @@ const Form = () => {
   };
 
   return (
-    <div className=" bg-[#0E57A3]  shadow w-full md:w-3/4 p-2 ">
+    <div className=" bg-[#0E57A3]  shadow w-full md:w-3/4 p-2 "> 
       <form onSubmit={handleSubmit} className="bg-[#0E57A3] mt-2 p-2">
 
         <div className="flex items-center py-2 px-3 mb-4 bg-white rounded">
