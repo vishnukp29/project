@@ -24,7 +24,7 @@ const Card = () => {
               <img
                 src={space}
                 alt=""
-                className="object-cover w-full md:h-64 h-full"
+                className="object-cover w-full md:h-64 h-1/2"
               />
             </a>
             <div className="p-5">
