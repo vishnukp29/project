@@ -10,7 +10,7 @@ const Card = () => {
       <div className="justify-center max-w-6xl px-4 py-4 mx-auto lg:py-0">
         <div className="px-4 m-5 md:text-center md:m-10 ">
           <h2 className=" text-2xl lg:text-4xl font-bold text-center text-gray-700 ">
-          Feb2k23 Workshops
+          Enquiry
           </h2>
         </div>
 
