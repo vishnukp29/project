@@ -19,12 +19,12 @@ const Card = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-          <div className="bg-[#FF6700]  shadow-md ">
+          <div className="bg-[#FF6700]  shadow-md w-full">
             <a href="#" className="">
               <img
                 src={space}
                 alt=""
-                className="object-cover w-full md:h-64 h-1/2"
+                className="object-cover w-full md:h-64 h:32"
               />
             </a>
             <div className="p-5">
@@ -46,7 +46,7 @@ const Card = () => {
               <img
                 src={lib}
                 alt=""
-                className="object-cover w-full h-64"
+                className="object-cover w-full md:h-64 h:32"
               />
             </a>
             <div className="p-5">
@@ -67,7 +67,7 @@ const Card = () => {
               <img
                 src={hr}
                 alt=""
-                className="object-cover w-full h-64 "
+                className="object-cover w-full md:h-64 h:32 "
               />
             </a>
             <div className="p-5">
@@ -89,7 +89,7 @@ const Card = () => {
               <img
                 src={img}
                 alt=""
-                className="object-cover w-full h-64 "
+                className="object-cover w-full md:h-64 h:32 "
               />
             </a>
             <div className="p-5">
